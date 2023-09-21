@@ -1,0 +1,112 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background-color: #7b2cbf;
+    font-family: 'Harry Potter', sans-serif;      
+    color:#000000;                                      
+}
+
+#myBox{
+    width:700px;
+    height:1200px;
+    margin:auto;
+}
+
+button{
+  border-radius:50px;
+  border:2px solid #240046;
+  background-color:#7b2cbf;
+  font-family: 'Harry Potter', sans-serif
+}
+#secondBox{
+    display:flex;
+    margin:5px;
+    gap:5px;
+}
+#guessWho {
+    font-size: 70px;
+    margin:10px;
+    display:none;
+}
+
+#Who{
+    display:none;
+}
+#firstImg{
+    width:250px;
+    height:200px;
+    display:none;
+    border-radius:50px;
+}
+#mine{
+    display:none;
+    font-size: 70px;
+    margin:50px 10px 10px 10px;
+}
+#videoOne{
+    margin:auto;
+    display:none;
+    width: 370px;
+    height: 350px;
+    border: 3px solid #240046;
+    border-radius: 4px;
+    padding: 5px;
+}
+#videoTwo{
+    margin:auto;
+    width: 370px;
+    height: 350px;
+    border: 3px solid #240046;
+    border-radius: 4px;
+    padding: 5px;
+}
+.mySlides {
+    display: none;
+  }
+#slideshow-container {
+    max-width: 1000px;
+    margin: 30px;
+    display:none;
+  }
+#message{
+    display:none;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+#images{
+    width:100%;
+    border: 3px solid #240046;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#lastParagraph{
+  display:none;
+}
+.lastWords{
+  margin-top:50px;
+  font-size:22px;
+}
