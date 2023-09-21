@@ -16,10 +16,11 @@ html, body {
 }
 
 button{
-  border-radius:50px;
-  border:2px solid #240046;
+  border:none;
   background-color:#7b2cbf;
-  font-family: 'Harry Potter', sans-serif
+  font-family: 'Harry Potter', sans-serif;
+  font-size:50px;
+  color:whitesmoke;
 }
 #secondBox{
     display:flex;
@@ -27,39 +28,39 @@ button{
     gap:5px;
 }
 #guessWho {
-    font-size: 90px;
+    font-size: 200px;
     margin:10px;
     display:none;
 }
 
 #Who{
     display:none;
-    font-size: 90px;
+    font-size: 130px;
 }
 #firstImg{
-    width:250px;
-    height:200px;
+    width:450px;
+    height:400px;
     display:none;
     border-radius:50px;
 }
 #mine{
     display:none;
-    font-size: 90px;
+    font-size: 200px;
     margin:50px 10px 10px 10px;
 }
 #videoOne{
     margin:auto;
     display:none;
-    width: 370px;
-    height: 350px;
+    width: 700px;
+    height: 650px;
     border: 3px solid #240046;
     border-radius: 4px;
     padding: 5px;
 }
 #videoTwo{
     margin:auto;
-    width: 370px;
-    height: 350px;
+    width: 700px;
+    height: 650px;
     border: 3px solid #240046;
     border-radius: 4px;
     padding: 5px;
@@ -74,7 +75,7 @@ button{
   }
 #message{
     display:none;
-    font-size: 50px
+    font-size: 50px;
 }
 .fade {
     -webkit-animation-name: fade;
@@ -110,5 +111,5 @@ button{
 }
 .lastWords{
   margin-top:50px;
-  font-size:70px;
+  font-size:80px;
 }
