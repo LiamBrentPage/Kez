@@ -14,13 +14,13 @@ setTimeout (function() {
 setTimeout (function() {
     who.style.display = 'block'
     who2.style.display = 'block'
-}, 3000)
+}, 3500)
 
 setTimeout (function() {
     guessWho.style.display = 'none'
     who.style.display = 'none'
     who2.style.display = 'none'
-}, 4500)
+}, 6000)
 
 const vidOne = document.getElementById('videoOne')
 const mine = document.getElementById('mine')
@@ -28,20 +28,20 @@ const mine = document.getElementById('mine')
 setTimeout (function() {
     videoOne.style.display ='block'
     mine.style.display ='block'
-}, 5000)
+}, 6500)
 
 setTimeout (function() {
     videoOne.style.display ='none'
     mine.style.display ='none'
-}, 9500)
+}, 11000)
 
 setTimeout (function() {
     message.style.display ='block'
-}, 10000)
+}, 12000)
 
 setTimeout ( function(){
     slideShow.style.display = 'block'
-}, 10000)
+}, 12000)
 
 let slideIndex = 0;
 let timeoutId = null;
